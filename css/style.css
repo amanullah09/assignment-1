@@ -1,0 +1,72 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding:0;
+    
+}
+/*styling aman section*/
+.text-area{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:50px;
+    
+}
+.text-area .name{
+    border-image: linear-gradient( #154360 ,#34495E);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+.text-area .name h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 55px;
+    color: #333;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-weight:bold;
+    
+}
+.text-area .color{
+    color:#21618C ;
+}
+.flexible{
+    display: flex;
+}
+.image-area{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image-area img{
+    height:600px;
+    width:500px;
+    margin-top: -15px;
+}
+.text-area p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color:#626567 ;
+    font-weight: 400;
+    text-align:justify;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.text-area a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    background: #1A5276;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 18px;
+}
+.text-area .scroll{
+    color:#333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.nission .my-mession{
+    display:block;
+}
