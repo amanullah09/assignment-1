@@ -7,6 +7,26 @@ body{
 .color{
     color:#21618C ;
 }
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    background: #1A5276;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 18px;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color:#626567 ;
+    font-weight: 400;
+    text-align:justify;
+    text-transform: capitalize;
+    padding: 20px;
+    line-height: 28px;
+}
 /*styling aman section*/
 .text-area{
     width:40%;
@@ -31,7 +51,6 @@ body{
     font-weight:bold;
     
 }
-
 .flexible{
     display: flex;
 }
@@ -44,24 +63,6 @@ body{
     height:600px;
     width:500px;
     margin-top: -15px;
-}
-.text-area p{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    color:#626567 ;
-    font-weight: 400;
-    text-align:justify;
-    text-transform: capitalize;
-    padding: 20px;
-}
-.text-area a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 20px;
-    background: #1A5276;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-left: 18px;
 }
 .text-area .scroll{
     color:#333;
@@ -99,7 +100,6 @@ body{
 .joystick h1{
     text-transform: uppercase;
     font-size: 20px;
-    
 }
 .joystick p{
     color: #333;
@@ -113,11 +113,10 @@ body{
 }
 .laptop{
     height:100%;
-    background-color: #E74C3C;
+    background-color: #3498DB;
     padding:20px;
     padding-bottom:0;
-    border-radius:20px;
-    
+    border-radius:20px;  
 }
 .laptop h1{
     text-transform: uppercase;
@@ -135,7 +134,7 @@ body{
 }
 .reading-books{
     height:100%;
-    background-color: #A04000;
+    background-color: #27AE60;
     margin-right: 15px;
     padding:20px;
     padding-bottom:0;
@@ -154,4 +153,33 @@ body{
 .reading-books img{
     height:200px;
     width: 200px;
+}
+/*developer section*/
+.developer{
+    margin-top:100px;
+}
+.text-area{
+    margin-top:10px;
+    text-align: left;
+    
+}
+.text-area h3{
+    font-size: 45px;
+    color: #27AE60;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+.text-area span{
+    padding-top: 10px;
+}
+.image-area img{
+    height:500px;
+    width:500px;
+}
+/*communication area style*/
+.community{
+    margin-top:80px;
+}
+.community .text-area h3{
+    color:#DB5C34;
 }
